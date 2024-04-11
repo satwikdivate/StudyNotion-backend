@@ -32,7 +32,7 @@ exports.resetPasswordToken = async (req, res) => {
 
         //link generation...
         //create url
-        const url = `http://localhost:3000/update-password/${token}`;
+        const url = `https://study-notion-frontend-two-omega.vercel.app/${token}`;
         // const url = `https://study-notion-mega-project-3602xqx0r-dhruv9316.vercel.app/update-password/${token}`;
 
         //sending... mail
